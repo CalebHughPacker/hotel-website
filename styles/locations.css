@@ -1,6 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap');
+.locations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+    padding: 20px;
+    margin-top: 20px;
+    position:relative;
+    top:100px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.locations h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-style: italic;
+    color:#BCD4A7;
+    margin-left: -1000px;
+    margin-bottom: -0px;
+}
+
+.locations h1:hover{
+    transform: scale(1.1);
+}
 
 .locations-container{
     position:relative;
+    margin-top: 100px;
 }
 
 .locations-images, .locations-names{
@@ -20,10 +47,6 @@
 .locations-images img:hover{
     opacity: .9;
     transform: scale(1.1);
-}
-
-.footer{
-    
 }
 
 .locations-names{
@@ -48,6 +71,7 @@
 
 footer{
     position: relative;
-    margin-top: 900px;
+    bottom:0;
+    top:1000px;
     z-index: 1;
 }
