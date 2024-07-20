@@ -8,7 +8,9 @@
 
     --heading-font: 'Playfair Display', serif;
     --paragraph-font: 'Roboto', sans-serif;
+}
 
+body{
     background-color: var(--accent1-color);
 }
 
@@ -56,10 +58,6 @@ nav > a{
 nav a:hover{
     background-color: #D3D3D375;
     color: var(--secondary-color);
-}
-
-.logo:hover{
-    
 }
 
 #hero{
@@ -146,7 +144,7 @@ footer a{
 @media screen and (max-width: 900px) {
     
     .logo{
-        width: 75px;;
+        width: 75px;
     }
     
     nav{
@@ -186,7 +184,7 @@ footer a{
     }
 
     .card-img{
-        height:0px;
+        height:0;
         width:100px;
     }
 
