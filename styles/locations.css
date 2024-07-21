@@ -18,7 +18,7 @@
     font-style: italic;
     color:#BCD4A7;
     margin-left: -1000px;
-    margin-bottom: -0px;
+    margin-bottom: 0;
 }
 
 .locations h1:hover{
@@ -59,7 +59,7 @@
 }
 
 .locations-names h2{
-    background-color: #D3D3D375;
+    background-color: rgba(211, 211, 211, 0.75);
     margin-bottom: 205px;
     margin-left: 155px;
     justify-self: left;
@@ -71,7 +71,6 @@
 
 footer{
     position: relative;
-    bottom:0;
     top:1000px;
     z-index: 1;
 }
